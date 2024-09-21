@@ -1,5 +1,5 @@
 # TP DSW
-Trabajo Practico de Desarrollo de Software UTN FRRO
+Este proyecto fue desarrollado para la materia Desarrollo de Software de la UTN Rosario. Fue creado en su totalidad por los alumnos Julián Vera y Raúl Bruno.
 
 ## Integrantes:
 - Bruno, Raúl  |  Legajo: 47826
@@ -46,7 +46,6 @@ Un usuario, sin necesidad de estar logueado, puede enviar una consulta.
 ## Link Deploy
 
 https://skillhub-utn.netlify.app/
-
 
 ## Link Video funcionamiento
 
