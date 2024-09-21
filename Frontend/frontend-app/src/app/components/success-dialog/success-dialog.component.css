@@ -1,0 +1,27 @@
+.dialogo h1{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 7%;
+    
+}
+
+
+/*.dialogo h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+
+.dialogo .boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.dialogo .botones{
+    display: flex;
+    justify-content: center;
+}*/

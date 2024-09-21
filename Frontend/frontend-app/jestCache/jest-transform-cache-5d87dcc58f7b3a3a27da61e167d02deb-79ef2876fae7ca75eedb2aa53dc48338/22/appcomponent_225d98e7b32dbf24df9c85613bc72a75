@@ -1,0 +1,47 @@
+e30c01d58f227ded057582946d40444f
+/* istanbul ignore next */
+function cov_1dok81ybpo() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.html";
+  var hash = "156f6ee1bcf7ba0c7a986ddfbea23e1d7d2675d0";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.html",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "156f6ee1bcf7ba0c7a986ddfbea23e1d7d2675d0"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1dok81ybpo = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1dok81ybpo();
+cov_1dok81ybpo().s[0]++;
+module.exports = "\r\n<app-spinner></app-spinner>\r\n<div>\r\n  \r\n  <app-header ></app-header>\r\n\r\n\r\n  <router-outlet></router-outlet>\r\n  <app-footer></app-footer>\r\n</div>\r\n";

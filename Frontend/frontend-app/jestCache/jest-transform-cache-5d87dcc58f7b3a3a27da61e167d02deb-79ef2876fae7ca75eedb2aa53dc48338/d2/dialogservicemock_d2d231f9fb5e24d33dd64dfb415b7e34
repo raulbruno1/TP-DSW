@@ -1,0 +1,450 @@
+b6f48debf817aa1924b3a2ff458db84b
+"use strict";
+
+/* istanbul ignore next */
+function cov_kogrh2rlt() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\mocks\\dialog.service.mock.ts";
+  var hash = "e3aa9d76ba36d19a32c9c0db7d337b14d07198c7";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\mocks\\dialog.service.mock.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 35
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 19
+        },
+        end: {
+          line: 6,
+          column: 63
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 38
+        },
+        end: {
+          line: 7,
+          column: 105
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 35
+        },
+        end: {
+          line: 8,
+          column: 96
+        }
+      },
+      "7": {
+        start: {
+          line: 9,
+          column: 39
+        },
+        end: {
+          line: 9,
+          column: 108
+        }
+      },
+      "8": {
+        start: {
+          line: 10,
+          column: 24
+        },
+        end: {
+          line: 39,
+          column: 1
+        }
+      },
+      "9": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 12,
+          column: 29
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 11
+        }
+      },
+      "11": {
+        start: {
+          line: 22,
+          column: 8
+        },
+        end: {
+          line: 22,
+          column: 29
+        }
+      },
+      "12": {
+        start: {
+          line: 23,
+          column: 8
+        },
+        end: {
+          line: 27,
+          column: 11
+        }
+      },
+      "13": {
+        start: {
+          line: 30,
+          column: 8
+        },
+        end: {
+          line: 34,
+          column: 11
+        }
+      },
+      "14": {
+        start: {
+          line: 36,
+          column: 13
+        },
+        end: {
+          line: 38,
+          column: 6
+        }
+      },
+      "15": {
+        start: {
+          line: 36,
+          column: 41
+        },
+        end: {
+          line: 38,
+          column: 5
+        }
+      },
+      "16": {
+        start: {
+          line: 40,
+          column: 0
+        },
+        end: {
+          line: 45,
+          column: 22
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 11,
+            column: 4
+          },
+          end: {
+            line: 11,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 24
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        line: 11
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 14,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 31
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        },
+        line: 14
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 21,
+            column: 4
+          },
+          end: {
+            line: 21,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 31
+          },
+          end: {
+            line: 28,
+            column: 5
+          }
+        },
+        line: 21
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 29,
+            column: 4
+          },
+          end: {
+            line: 29,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 29,
+            column: 30
+          },
+          end: {
+            line: 35,
+            column: 5
+          }
+        },
+        line: 29
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 36,
+            column: 35
+          },
+          end: {
+            line: 36,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 36,
+            column: 41
+          },
+          end: {
+            line: 38,
+            column: 5
+          }
+        },
+        line: 36
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\mocks\\dialog.service.mock.ts",
+      mappings: ";;;;AAAA,wCAA2C;AAC3C,gEAA4E;AAC5E,0GAAkG;AAClG,iGAAyF;AACzF,6GAAqG;AAK5F,IAAM,iBAAiB,+BAAvB,MAAM,iBAAiB;IAC5B,YAAmB,MAAiB;QAAjB,WAAM,GAAN,MAAM,CAAW;IAAG,CAAC;IAExC,iBAAiB,CAAC,OAAe;QAC/B,OAAO,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,oDAAsB,EAAE;YAC9C,KAAK,EAAE,OAAO;YACd,MAAM,EAAE,OAAO;YACf,IAAI,EAAE,EAAE,OAAO,EAAE;SAClB,CAAC,CAAC;IACL,CAAC;IACD,iBAAiB,CAAC,OAAe;QAC7B,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA;QAClB,OAAO,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,8CAAmB,EAAE;YAC/C,KAAK,EAAE,OAAO;YACd,MAAM,EAAE,OAAO;YACf,IAAI,EAAE,EAAE,OAAO,EAAE;SAClB,CAAC,CAAC;IACF,CAAC;IAGJ,gBAAgB,CAAC,OAAe;QAC9B,OAAO,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,sDAAuB,EAAE;YAC/C,KAAK,EAAE,OAAO;YACd,MAAM,EAAE,OAAO;YACf,IAAI,EAAE,EAAE,OAAO,EAAE;SAClB,CAAC,CAAC;IACL,CAAC;;;;;4BA1BU,iBAAiB;IAH/B,IAAA,iBAAU,EAAC;QACR,UAAU,EAAE,MAAM;KACnB,CAAC;6CAE2B,oBAAS;GADzB,iBAAiB,CA2B7B",
+      names: [],
+      sources: ["C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\mocks\\dialog.service.mock.ts"],
+      sourcesContent: ["import { Injectable } from \"@angular/core\";\r\nimport { MatDialog, MatDialogRef } from \"@angular/material/dialog/index.js\";\r\nimport { SuccessDialogComponent } from \"../components/success-dialog/success-dialog.component.js\";\r\nimport { ErrorAvisoComponent } from \"../components/error-aviso/error-aviso.component.js\";\r\nimport { EliminarDialogComponent } from \"../components/eliminar-dialog/eliminar-dialog.component.js\";\r\n\r\n@Injectable({\r\n    providedIn: 'root'\r\n  })\r\n  export class DialogServiceMock {\r\n    constructor(public dialog: MatDialog) {}\r\n  \r\n    openSuccessDialog(message: string): MatDialogRef<SuccessDialogComponent> {\r\n      return this.dialog.open(SuccessDialogComponent, {\r\n        width: '400px',\r\n        height: '150px',\r\n        data: { message }\r\n      });\r\n    }\r\n    openFailureDialog(message: string): MatDialogRef<ErrorAvisoComponent> {\r\n        console.log(message)\r\n          return this.dialog.open(ErrorAvisoComponent, {\r\n        width: '350px',\r\n        height: '130px',\r\n        data: { message }\r\n      });\r\n       }\r\n  \r\n  \r\n    openDeleteDialog(message: string): MatDialogRef<EliminarDialogComponent> {\r\n      return this.dialog.open(EliminarDialogComponent, {\r\n        width: '600px',\r\n        height: '150px',\r\n        data: { message }\r\n      });\r\n    }\r\n  }"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "e3aa9d76ba36d19a32c9c0db7d337b14d07198c7"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_kogrh2rlt = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_kogrh2rlt();
+cov_kogrh2rlt().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_kogrh2rlt().s[1]++;
+exports.DialogServiceMock = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[3]++, require("@angular/core"));
+const index_js_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[4]++, require("@angular/material/dialog/index.js"));
+const success_dialog_component_js_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[5]++, require("../components/success-dialog/success-dialog.component.js"));
+const error_aviso_component_js_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[6]++, require("../components/error-aviso/error-aviso.component.js"));
+const eliminar_dialog_component_js_1 =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[7]++, require("../components/eliminar-dialog/eliminar-dialog.component.js"));
+let DialogServiceMock =
+/* istanbul ignore next */
+(cov_kogrh2rlt().s[8]++, exports.DialogServiceMock = class DialogServiceMock {
+  constructor(dialog) {
+    /* istanbul ignore next */
+    cov_kogrh2rlt().f[0]++;
+    cov_kogrh2rlt().s[9]++;
+    this.dialog = dialog;
+  }
+  openSuccessDialog(message) {
+    /* istanbul ignore next */
+    cov_kogrh2rlt().f[1]++;
+    cov_kogrh2rlt().s[10]++;
+    return this.dialog.open(success_dialog_component_js_1.SuccessDialogComponent, {
+      width: '400px',
+      height: '150px',
+      data: {
+        message
+      }
+    });
+  }
+  openFailureDialog(message) {
+    /* istanbul ignore next */
+    cov_kogrh2rlt().f[2]++;
+    cov_kogrh2rlt().s[11]++;
+    console.log(message);
+    /* istanbul ignore next */
+    cov_kogrh2rlt().s[12]++;
+    return this.dialog.open(error_aviso_component_js_1.ErrorAvisoComponent, {
+      width: '350px',
+      height: '130px',
+      data: {
+        message
+      }
+    });
+  }
+  openDeleteDialog(message) {
+    /* istanbul ignore next */
+    cov_kogrh2rlt().f[3]++;
+    cov_kogrh2rlt().s[13]++;
+    return this.dialog.open(eliminar_dialog_component_js_1.EliminarDialogComponent, {
+      width: '600px',
+      height: '150px',
+      data: {
+        message
+      }
+    });
+  }
+  static {
+    /* istanbul ignore next */
+    cov_kogrh2rlt().s[14]++;
+    this.ctorParameters = () => {
+      /* istanbul ignore next */
+      cov_kogrh2rlt().f[4]++;
+      cov_kogrh2rlt().s[15]++;
+      return [{
+        type: index_js_1.MatDialog
+      }];
+    };
+  }
+});
+/* istanbul ignore next */
+cov_kogrh2rlt().s[16]++;
+exports.DialogServiceMock = DialogServiceMock = tslib_1.__decorate([(0, core_1.Injectable)({
+  providedIn: 'root'
+}), tslib_1.__metadata("design:paramtypes", [index_js_1.MatDialog])], DialogServiceMock);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3Zfa29ncmgycmx0IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiY29yZV8xIiwicmVxdWlyZSIsImluZGV4X2pzXzEiLCJzdWNjZXNzX2RpYWxvZ19jb21wb25lbnRfanNfMSIsImVycm9yX2F2aXNvX2NvbXBvbmVudF9qc18xIiwiZWxpbWluYXJfZGlhbG9nX2NvbXBvbmVudF9qc18xIiwiRGlhbG9nU2VydmljZU1vY2siLCJleHBvcnRzIiwiY29uc3RydWN0b3IiLCJkaWFsb2ciLCJmIiwib3BlblN1Y2Nlc3NEaWFsb2ciLCJtZXNzYWdlIiwib3BlbiIsIlN1Y2Nlc3NEaWFsb2dDb21wb25lbnQiLCJ3aWR0aCIsImhlaWdodCIsImRhdGEiLCJvcGVuRmFpbHVyZURpYWxvZyIsImNvbnNvbGUiLCJsb2ciLCJFcnJvckF2aXNvQ29tcG9uZW50Iiwib3BlbkRlbGV0ZURpYWxvZyIsIkVsaW1pbmFyRGlhbG9nQ29tcG9uZW50IiwidHNsaWJfMSIsIl9fZGVjb3JhdGUiLCJJbmplY3RhYmxlIiwicHJvdmlkZWRJbiIsIk1hdERpYWxvZyJdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSnVsacOhblxcRGVza3RvcFxcZnJvbnRcXGZyb250ZW5kLWFwcFxcc3JjXFxhcHBcXG1vY2tzXFxkaWFsb2cuc2VydmljZS5tb2NrLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tIFwiQGFuZ3VsYXIvY29yZVwiO1xyXG5pbXBvcnQgeyBNYXREaWFsb2csIE1hdERpYWxvZ1JlZiB9IGZyb20gXCJAYW5ndWxhci9tYXRlcmlhbC9kaWFsb2cvaW5kZXguanNcIjtcclxuaW1wb3J0IHsgU3VjY2Vzc0RpYWxvZ0NvbXBvbmVudCB9IGZyb20gXCIuLi9jb21wb25lbnRzL3N1Y2Nlc3MtZGlhbG9nL3N1Y2Nlc3MtZGlhbG9nLmNvbXBvbmVudC5qc1wiO1xyXG5pbXBvcnQgeyBFcnJvckF2aXNvQ29tcG9uZW50IH0gZnJvbSBcIi4uL2NvbXBvbmVudHMvZXJyb3ItYXZpc28vZXJyb3ItYXZpc28uY29tcG9uZW50LmpzXCI7XHJcbmltcG9ydCB7IEVsaW1pbmFyRGlhbG9nQ29tcG9uZW50IH0gZnJvbSBcIi4uL2NvbXBvbmVudHMvZWxpbWluYXItZGlhbG9nL2VsaW1pbmFyLWRpYWxvZy5jb21wb25lbnQuanNcIjtcclxuXHJcbkBJbmplY3RhYmxlKHtcclxuICAgIHByb3ZpZGVkSW46ICdyb290J1xyXG4gIH0pXHJcbiAgZXhwb3J0IGNsYXNzIERpYWxvZ1NlcnZpY2VNb2NrIHtcclxuICAgIGNvbnN0cnVjdG9yKHB1YmxpYyBkaWFsb2c6IE1hdERpYWxvZykge31cclxuICBcclxuICAgIG9wZW5TdWNjZXNzRGlhbG9nKG1lc3NhZ2U6IHN0cmluZyk6IE1hdERpYWxvZ1JlZjxTdWNjZXNzRGlhbG9nQ29tcG9uZW50PiB7XHJcbiAgICAgIHJldHVybiB0aGlzLmRpYWxvZy5vcGVuKFN1Y2Nlc3NEaWFsb2dDb21wb25lbnQsIHtcclxuICAgICAgICB3aWR0aDogJzQwMHB4JyxcclxuICAgICAgICBoZWlnaHQ6ICcxNTBweCcsXHJcbiAgICAgICAgZGF0YTogeyBtZXNzYWdlIH1cclxuICAgICAgfSk7XHJcbiAgICB9XHJcbiAgICBvcGVuRmFpbHVyZURpYWxvZyhtZXNzYWdlOiBzdHJpbmcpOiBNYXREaWFsb2dSZWY8RXJyb3JBdmlzb0NvbXBvbmVudD4ge1xyXG4gICAgICAgIGNvbnNvbGUubG9nKG1lc3NhZ2UpXHJcbiAgICAgICAgICByZXR1cm4gdGhpcy5kaWFsb2cub3BlbihFcnJvckF2aXNvQ29tcG9uZW50LCB7XHJcbiAgICAgICAgd2lkdGg6ICczNTBweCcsXHJcbiAgICAgICAgaGVpZ2h0OiAnMTMwcHgnLFxyXG4gICAgICAgIGRhdGE6IHsgbWVzc2FnZSB9XHJcbiAgICAgIH0pO1xyXG4gICAgICAgfVxyXG4gIFxyXG4gIFxyXG4gICAgb3BlbkRlbGV0ZURpYWxvZyhtZXNzYWdlOiBzdHJpbmcpOiBNYXREaWFsb2dSZWY8RWxpbWluYXJEaWFsb2dDb21wb25lbnQ+IHtcclxuICAgICAgcmV0dXJuIHRoaXMuZGlhbG9nLm9wZW4oRWxpbWluYXJEaWFsb2dDb21wb25lbnQsIHtcclxuICAgICAgICB3aWR0aDogJzYwMHB4JyxcclxuICAgICAgICBoZWlnaHQ6ICcxNTBweCcsXHJcbiAgICAgICAgZGF0YTogeyBtZXNzYWdlIH1cclxuICAgICAgfSk7XHJcbiAgICB9XHJcbiAgfSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWNRO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBOzs7Ozs7Ozs7O0FBZFIsTUFBQUMsTUFBQTtBQUFBO0FBQUEsQ0FBQUgsYUFBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFDQSxNQUFBQyxVQUFBO0FBQUE7QUFBQSxDQUFBTCxhQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUNBLE1BQUFFLDZCQUFBO0FBQUE7QUFBQSxDQUFBTixhQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUNBLE1BQUFHLDBCQUFBO0FBQUE7QUFBQSxDQUFBUCxhQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUNBLE1BQUFJLDhCQUFBO0FBQUE7QUFBQSxDQUFBUixhQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUtTLElBQU1LLGlCQUFpQjtBQUFBO0FBQUEsQ0FBQVQsYUFBQSxHQUFBRSxDQUFBLE9BQUFRLE9BQUEsQ0FBQUQsaUJBQUEsR0FBdkIsTUFBTUEsaUJBQWlCO0VBQzVCRSxZQUFtQkMsTUFBaUI7SUFBQTtJQUFBWixhQUFBLEdBQUFhLENBQUE7SUFBQWIsYUFBQSxHQUFBRSxDQUFBO0lBQWpCLEtBQUFVLE1BQU0sR0FBTkEsTUFBTTtFQUFjO0VBRXZDRSxpQkFBaUJBLENBQUNDLE9BQWU7SUFBQTtJQUFBZixhQUFBLEdBQUFhLENBQUE7SUFBQWIsYUFBQSxHQUFBRSxDQUFBO0lBQy9CLE9BQU8sSUFBSSxDQUFDVSxNQUFNLENBQUNJLElBQUksQ0FBQ1YsNkJBQUEsQ0FBQVcsc0JBQXNCLEVBQUU7TUFDOUNDLEtBQUssRUFBRSxPQUFPO01BQ2RDLE1BQU0sRUFBRSxPQUFPO01BQ2ZDLElBQUksRUFBRTtRQUFFTDtNQUFPO0tBQ2hCLENBQUM7RUFDSjtFQUNBTSxpQkFBaUJBLENBQUNOLE9BQWU7SUFBQTtJQUFBZixhQUFBLEdBQUFhLENBQUE7SUFBQWIsYUFBQSxHQUFBRSxDQUFBO0lBQzdCb0IsT0FBTyxDQUFDQyxHQUFHLENBQUNSLE9BQU8sQ0FBQztJQUFBO0lBQUFmLGFBQUEsR0FBQUUsQ0FBQTtJQUNsQixPQUFPLElBQUksQ0FBQ1UsTUFBTSxDQUFDSSxJQUFJLENBQUNULDBCQUFBLENBQUFpQixtQkFBbUIsRUFBRTtNQUMvQ04sS0FBSyxFQUFFLE9BQU87TUFDZEMsTUFBTSxFQUFFLE9BQU87TUFDZkMsSUFBSSxFQUFFO1FBQUVMO01BQU87S0FDaEIsQ0FBQztFQUNEO0VBR0hVLGdCQUFnQkEsQ0FBQ1YsT0FBZTtJQUFBO0lBQUFmLGFBQUEsR0FBQWEsQ0FBQTtJQUFBYixhQUFBLEdBQUFFLENBQUE7SUFDOUIsT0FBTyxJQUFJLENBQUNVLE1BQU0sQ0FBQ0ksSUFBSSxDQUFDUiw4QkFBQSxDQUFBa0IsdUJBQXVCLEVBQUU7TUFDL0NSLEtBQUssRUFBRSxPQUFPO01BQ2RDLE1BQU0sRUFBRSxPQUFPO01BQ2ZDLElBQUksRUFBRTtRQUFFTDtNQUFPO0tBQ2hCLENBQUM7RUFDSjs7Ozs7Ozs7Ozs7Ozs7Ozs0QkExQldOLGlCQUFpQixHQUFBa0IsT0FBQSxDQUFBQyxVQUFBLEVBSC9CLElBQUF6QixNQUFBLENBQUEwQixVQUFVLEVBQUM7RUFDUkMsVUFBVSxFQUFFO0NBQ2IsQ0FBQyxFLHlDQUUyQnpCLFVBQUEsQ0FBQTBCLFNBQVMsRyxFQUR6QnRCLGlCQUFpQixDQTJCN0IifQ==

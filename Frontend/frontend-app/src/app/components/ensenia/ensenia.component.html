@@ -1,0 +1,129 @@
+
+<main>
+  <section class="textos-inicio">
+    <h1>Animate a enseñar con nosotros y ser instructor</h1>
+    <h2>Los estudiantes te esperan</h2>
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M-4.79,83.39 C206.83,184.05 365.40,-20.20 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ace1f9;"></path>
+      </svg></div>
+  </section>
+
+
+  <div class="container-fluid">
+    <div class="contenedor-lista">
+      <div class="tarjeta">
+        <div class="logo1">
+          <img src="./assets/enseña3.jpg" alt="" width="100" height="100">
+          <h2>Conseguí una recompensa</h2>
+          <p> Amplía tu red profesional, desarrolla tus conocimientos y gana dinero con cada inscripción.</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="logo1">
+          <img src="./assets/enseña2.jpg" alt="" width="100" height="100">
+          <h2>Inspirá a los estudiantes</h2>
+          <p> Enseña lo que sabes y ayuda a los estudiantes a explorar sus intereses, adquirir nuevas habilidades y
+            avanzar en sus carreras.</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="logo1">
+          <img src="./assets/enseña1.jpg" alt="" width="100" height="100">
+          <h2>Enseña a tu manera</h2>
+          <p>Publica el curso que quieras, como quieras y tene siempre el control de tu propio contenido.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="formulario">
+      <form (ngSubmit)="crearMensaje()" #contactoForm="ngForm">
+        <h1 class="titulo">Contactate con nosotros</h1>
+
+        <div class="contform1">
+          <div class="form-elemento">
+            <h3>Nombre</h3>
+            <input type="text" class="form-control" name="name" id="name" pattern="[a-zA-ZáéíóúüÁÉÍÓÚÜ\s]+" required
+              [(ngModel)]="messagge.name" #name="ngModel">
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-danger">
+              <div *ngIf="name.errors?.['required']">El nombre es requerido.</div>
+              <div *ngIf="name.errors?.['pattern']">Ingresa solo caracteres alfabéticos.</div>
+            </div>
+
+            <div class="form-elemento">
+              <h3>Email (requerido)</h3>
+              <input type="email" class="form-control" name="email" id="email" required [(ngModel)]="messagge.email"
+                #email="ngModel">
+              <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+                <div *ngIf="email.errors?.['required']">El email es requerido.</div>
+                <div *ngIf="email.errors?.['email']">El email no es válido.</div>
+              </div>
+            </div>
+
+            <div class="contform1">
+              <div class="form-elemento">
+                <h3>Telefono (requerido)</h3>
+                <input type="number" class="form-control" name="tel" id="tel" required [(ngModel)]="messagge.tel"
+                  #tel="ngModel">
+                <div *ngIf="tel.invalid && (tel.dirty || tel.touched)" class="text-danger">
+                  <div *ngIf="tel.errors?.['required']">El teléfono es requerido.</div>
+                  <div *ngIf="tel.errors?.['pattern']">Ingrese solo caracteres numéricos.</div>
+                </div>
+
+                <div class="form-elemento">
+                  <h3>Localidad (requerido)</h3>
+                  <input type="text" class="form-control" name="city" id="city" pattern="[a-zA-ZáéíóúüÁÉÍÓÚÜ\s]+"
+                    required [(ngModel)]="messagge.city" #city="ngModel">
+                  <div *ngIf="city.invalid && (city.dirty || city.touched)" class="text-danger">
+                    <div *ngIf="city.errors?.['required']">La localidad es requerida.</div>
+                    <div *ngIf="city.errors?.['pattern']">Ingrese solo caracteres alfabéticos.</div>
+                  </div>
+                </div>
+
+                <div class="contform2">
+                  <div class="form-elemento">
+                    <h3>Mensaje</h3>
+                    <textarea class="textarea" name="message" id="message" cols="10" rows="10"
+                      [(ngModel)]="messagge.desc" #desc="ngModel"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="form-button" id="submit" [disabled]="contactoForm.invalid">ENVIAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div class="barra">
+    <div class="ud-container cont">
+      <div class="numeros">
+        <div class="seccion">15K</div>
+        <p>Estudiantes</p>
+      </div>
+      <div class="numeros">
+        <div class="seccion">Más de 5</div>
+        <p>Idiomas</p>
+      </div>
+      <div class="numeros">
+        <div class="seccion">75K</div>
+        <p>Inscripciones</p>
+      </div>
+      <div class="numeros">
+        <div class="seccion">Más de 7</div>
+        <p>Países</p>
+      </div>
+      <div class="numeros">
+        <div class="seccion">Más de 150</div>
+        <p>Clientes corporativos</p>
+      </div>
+    </div>
+  </div>
+
+</main>

@@ -1,0 +1,47 @@
+a08e0cbc7f14fe315fa5564da81a729d
+/* istanbul ignore next */
+function cov_a06kgymj7() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\curso-detalle\\curso-detalle.component.html";
+  var hash = "f1508042ea993e52c9d25ed777eeae72ea0bf6a7";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\curso-detalle\\curso-detalle.component.html",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 554
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f1508042ea993e52c9d25ed777eeae72ea0bf6a7"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_a06kgymj7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_a06kgymj7();
+cov_a06kgymj7().s[0]++;
+module.exports = "<div class=\"container-fluid\" *ngIf=\"course\">\r\n\r\n  <div class=\"logo1\">\r\n    <img src=\"./assets/foto computadora curso.jpg\" >\r\n    <h2>{{course.name}}</h2>\r\n    <p class=\"horas\"> Horas del curso: {{course.totalhours}}</p>\r\n    <p class=\"email\"> Contactenos en: {{course.email}}</p>\r\n    <button type=\"submit\" class=\"form-button\" id=\"submit\" (click)=\"inscribe()\">Inscribirse gratis</button>\r\n  </div>\r\n\r\n  <div class=\"descripcion\">\r\n    <p class=\"desc\">{{course.desc}}</p>\r\n  </div>\r\n</div>";

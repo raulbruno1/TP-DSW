@@ -1,0 +1,167 @@
+  main {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .datos {
+    margin: 3%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 15px;
+  }
+
+  .datos h2 {
+    text-align: center;
+    
+  }
+
+
+  .personales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
+  }
+
+
+  .personales .fila h4 {
+    width: 100%;
+  }
+
+  .datos .eliminar {
+    background-color: #b12323;
+    padding: 0.5% 1%;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-left: 82%;
+    margin-bottom: 1%;
+    text-decoration: none;
+   
+  }
+
+  .btn .editar,
+  .btn .eliminar {
+    padding: 0.5% 1%;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    color: white;
+  }
+
+  .btn .editar {
+    background-color: #232db1ef;
+    margin-right: 2%;
+  }
+
+  .btn .eliminar {
+    background-color: #b12323;
+    margin-left: unset;
+  }
+
+  .inscripciones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .inscripciones h4 {
+    margin-top: 1%;
+
+    text-align: center;
+
+    font-size: 17px;
+  }
+
+  .datos .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .datos .info .p {
+    font-size: 15px;
+  }
+
+  .btnbasura {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: red;
+  }
+
+  .btnbasura:hover {
+    color: darkred;
+  }
+
+  .datos .info .fila {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+  }
+
+  .fila h4 {
+    font-size: 16px;
+    margin-right: 11%;
+    margin-top: 1%;
+    display: contents;
+  }
+
+  .datos .info .info-item {
+    flex: 1;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .datos .btn {
+    display: flex;
+
+    width: 100%;
+    margin-left: 70%;
+  }
+
+ 
+
+  .row-cols-4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .fila h4 {
+      margin-right: 8%;
+    }
+
+    .datos .btn {
+      margin-left: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .fila h4 {
+      margin-right: 11%;
+    }
+
+    .datos .btn {
+      margin-left: 67%;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .fila h4 {
+      margin-right: 9%;
+    }
+
+    .datos .btn {
+      margin-left: 72%;
+    }
+
+    .row-cols-4 .fila {
+      margin: left 1%;
+      ;
+    }
+  }

@@ -1,0 +1,151 @@
+main {
+  padding: 0;
+  margin: 0;
+}
+
+
+ .func {
+  width: 100%;
+  padding-top: 2%;
+  display: flex;
+  margin: auto;
+}
+
+
+ .func .descrip {
+  width: 50%;
+  padding-left: 4%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+ .func .descrip h2 {
+  font-size: 40px;
+  font-family: 'Open sans';
+  color: #D91717;
+}
+
+
+ .func .descrip p {
+  font-size: 20px;
+  font-family: 'Open sans';
+  width: 100%;
+  text-align: justify;
+}
+
+
+ .func .imagen {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+
+ .func .imagen img {
+
+  width: 90%;
+  height: 50vh;
+}
+
+
+@media only screen and (min-width: 768px) {
+   .func .imagen img {
+    width: 90%;
+    height: 40vh;
+    margin-top: 30%;
+    margin-right: 2%;
+  }
+
+   .clientes .imagenes .imagen {
+    height: 40vh;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+   .func .imagen img {
+    margin-top: 5%;
+    width: 90%;
+    height: 45vh;
+  }
+
+   .clientes .imagenes .imagen {
+    margin-top: 5%;
+    width: 110%;
+    height: 50vh;
+    margin-bottom: 5%;
+  }
+}
+
+
+@media only screen and (min-width: 1440px) {
+   .func .imagen img {
+    margin-top: 6%;
+    width: 90%;
+  }
+
+   .clientes .imagenes .imagen {
+    width: 90%;
+    margin-left: 20%;
+  }
+}
+
+ .clientes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+ .clientes .descripcion {
+  width: 55%;
+  background-color: #ebf3ff;
+  padding-left: 5%;
+}
+
+ .clientes .descripcion h2 {
+  font-size: 40px;
+  font-family: 'Open sans';
+  color: rgb(0, 0, 0);
+  margin-top: 10%;
+  line-height: 0.8;
+}
+
+ .clientes .imagenes {
+  width: 45%;
+  background-color: #ebf3ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clientes .descripcion p {
+  font-size: 21px;
+  font-family: 'Open sans';
+  width: 100%;
+  text-align: justify;
+  line-height: 0.8;
+  margin-top: 16px;
+}
+
+
+ .clientes .descripcion .contacto {
+  background-color: #2a61c5;
+  padding: 2% 7%;
+  margin-top: 5%;
+  border-radius: 8px;
+  margin-left: 35%;
+}
+
+ .clientes .descripcion .contacto a {
+  text-decoration: none;
+  color: white;
+}

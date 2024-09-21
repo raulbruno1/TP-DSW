@@ -1,0 +1,84 @@
+<main>
+  <div class="formulario">
+    "
+    <form #cursoForm="ngForm">
+      <div class="contform1">
+        <div class="form-elemento">
+          <h3>Nombre</h3>
+          <input type="text" class="form-control" name="name" id="name" pattern="[a-zA-ZáéíóúüÁÉÍÓÚÜ\s]+" maxlength="50" required
+            [(ngModel)]="course.name" #name="ngModel">
+          <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-danger">
+            <div *ngIf="name.errors?.['required']">El nombre es requerido.</div>
+            <div *ngIf="name.errors?.['pattern']">Ingresa solo caracteres alfabéticos.</div>
+          </div>
+        </div>
+
+        <!-- Horas Totales -->
+        <div class="form-elemento">
+          <h3>Horas totales</h3>
+          <input type="number" class="form-control" name="totalhours" id="totalhours" required
+            [(ngModel)]="course.totalhours" #totalhours="ngModel">
+          <div *ngIf="totalhours.invalid && (totalhours.dirty || totalhours.touched)" class="text-danger">
+            <div *ngIf="totalhours.errors?.['required']">Las horas totales son requeridas.</div>
+          </div>
+        </div>
+
+
+        <!-- Email -->
+        <div class="form-elemento">
+          <h3>Email</h3>
+          <input type="email" class="form-control" name="email" id="email" required [(ngModel)]="course.email"
+            #email="ngModel">
+          <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+            <div *ngIf="email.errors?.['required']">El email es requerido.</div>
+            <div *ngIf="email.errors?.['email']">El email no es válido.</div>
+          </div>
+        </div>
+
+
+
+        <div class="form-elemento">
+          <h3>Descripcion</h3>
+          <textarea class="textarea" name="desc" id="desc" cols="50" rows="10" [(ngModel)]="course.desc"
+            #desc="ngModel"></textarea>
+        </div>
+
+        <!-- Dificultad -->
+        <div class="form-elemento">
+          <mat-form-field appearance="fill">
+            <mat-label>Dificultad del curso</mat-label>
+            <mat-select [(ngModel)]="course.level" name="level">
+              <mat-option value="principiante">Nivel Principiante</mat-option>
+              <mat-option value="intermedio">Nivel Intermedio</mat-option>
+              <mat-option value="avanzado">Nivel Avanzado</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <!-- Icono -->
+        <div class="form-elemento">
+          <mat-form-field appearance="fill">
+            <mat-label>Icono del curso</mat-label>
+            <mat-select [(value)]="course.icon" name="icon" placeholder="Seleccionar icono">
+              <mat-option *ngFor="let icon of icons" [value]="icon.path">
+                <img src="{{ icon.path }}" class="img" />
+              </mat-option>
+              <!-- Utiliza mat-select-trigger para personalizar la visualización de la opción seleccionada -->
+              <mat-select-trigger>
+                <img *ngIf="course.icon" [src]="course.icon" class="img" />
+              </mat-select-trigger>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+
+        <button type="button" class="form-button" id="submit" *ngIf="isEdit"
+          (click)="updateCourse(course_id, cursoForm.value)">Actualizar</button>
+        <button type="submit" class="form-button" id="submit" *ngIf="!isEdit" (click)="createCourse()">Enviar</button>
+        <div class="separator"></div>
+        <div class="ud-text-sm">
+        </div>
+      </div>
+    </form>
+  </div>
+</main>

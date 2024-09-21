@@ -1,0 +1,188 @@
+main {
+  padding: 0;
+  margin: 0;
+}
+
+ .conteiner1 {
+  width: 100%;
+  height: 650px;
+  background: #bb49ec3f;
+  background: -webkit-linear-gradient(to right, #f8075756, #bc4e9d63), url(src\assets\estinicio.jpg);
+  background: linear-gradient(to right, #f8075756, #bc4e9d63), url(src\assets\estinicio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+ .conteiner1 h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+
+ .conteiner1 h2 {
+  font-size: 45px;
+  font-weight: 100;
+  color: #fff;
+}
+
+ .wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.conteiner2 h1 {
+  text-align: center;
+  font-family: 'Open sans';
+  font-size: clamp(1rem, 100vw, 3rem);
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+
+
+.razones {
+  max-width: 1280px;
+  min-width: 300px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+ .razones .foto {
+  margin: auto;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+ .razones .foto .imagen {
+  width: 100%;
+  height: 100%;
+}
+
+ .razones .porque {
+  width: 50%;
+}
+
+
+.contenedor-razon {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo2 {
+  width: 80%;
+  padding: 1.5%;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.logo2 h2 {
+  font-size: clamp(0.5rem, 100vw, 1.5rem);
+  font-family: 'Open sans';
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  margin-left: 8%;
+}
+
+ .destacados {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.destacados .titulo {
+  width: 100%;
+}
+
+.destacados .titulo h1 {
+  font-family: 'Open sans';
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0%;
+}
+
+.destacados .titulo h2 {
+  font-family: 'Open sans';
+  font-size: 25px;
+  font-weight: 900;
+  color: #D91717;
+}
+
+.destacados .titulo img {
+  float: right;
+}
+
+.destacados .contenedor {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.destacados .contenedor .logo1 {
+  width: 33%;
+  padding-top: 25px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-right: 15px;
+}
+
+.destacados .contenedor .logo1 img {
+  height: 80;
+  box-sizing: content-box;
+  width: 60%;
+}
+
+.destacados .contenedor .logo1 img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.destacados .contenedor .logo1 h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+ .destacados .contenedor .logo1 p {
+  font-size: 18px;
+}

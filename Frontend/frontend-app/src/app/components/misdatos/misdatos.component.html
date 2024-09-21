@@ -1,0 +1,53 @@
+
+
+<main>
+
+  <div class="datos">
+    <h2>Mis datos personales</h2>
+    <div class="personales">
+      <div class="personal">
+        <h4 *ngIf="studentData">{{ 'Nombre:' + studentData.data.name }} </h4>
+        <h4 *ngIf="studentData">{{ 'Edad:' + studentData.data.age }} </h4>
+      </div>
+
+      <div class="personal">
+        <h4 *ngIf="studentData">{{ 'Apellido:' + studentData.data.lastname }} </h4>
+        <h4 *ngIf="studentData">{{ 'Email:' + studentData.data.email }} </h4>
+      </div>
+    </div>
+    <div class="btn">
+      <button class="editar" (click)="editInfo()">Editar datos</button>
+      <button class="eliminar" (click)="deletedialog($event)">Eliminar cuenta</button>
+    </div>
+  </div>
+
+  <div class="datos">
+    <h2>Mis Inscripciones</h2>
+    <div class="container text-center">
+      <div class="row row-cols-4">
+        <div class="col"><h4>Fecha Inscripcion</h4></div>
+        <div class="col"><h4>Curso</h4></div>
+        <div class="col"><h4>Horas</h4></div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  
+    <div class="inscripciones">
+    </div>
+      <div class="info">
+      <div *ngFor="let detalle of details" class="container text-center">
+        <div class="row row-cols-4 fila">
+          <div class="col"><h4>{{ detalle.inscription_date }}</h4></div>
+          <div class="col"><h4>{{ detalle.courseName }}</h4></div>
+          <div class="col"><h4>{{ detalle.totalHours }}</h4></div>
+          <div class="col-2">
+            <button class="btnbasura" aria-label="Eliminar" (click)="deleteInsdialog(detalle.inscription_Id)">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>

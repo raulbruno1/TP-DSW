@@ -1,0 +1,47 @@
+be06c51dc1cb5c5e7207d8808ab84c45
+/* istanbul ignore next */
+function cov_2omou8cbxg() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.html";
+  var hash = "52e3542105a25168e2ebd9beec37f8475da77ed8";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.html",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 395
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "52e3542105a25168e2ebd9beec37f8475da77ed8"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2omou8cbxg = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2omou8cbxg();
+cov_2omou8cbxg().s[0]++;
+module.exports = "  <main>\r\n      <div class=\"dialogo\">\r\n          <h1>{{ data.message }}</h1>\r\n          <div class=\"botones\">\r\n          <button class=\"btn-cancelar\" mat-button (click)=\"closeDialog()\">Cancelar</button>\r\n          <button class=\"btn-confirmar\" mat-button (click)=\"onDeleteAlumno('confirm')\">Confirmar</button>\r\n        </div>\r\n      </div>\r\n  </main>";

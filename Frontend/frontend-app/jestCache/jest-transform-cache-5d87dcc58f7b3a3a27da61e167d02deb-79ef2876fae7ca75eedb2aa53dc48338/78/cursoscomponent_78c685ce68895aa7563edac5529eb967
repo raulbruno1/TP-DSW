@@ -1,0 +1,47 @@
+8d8f6006d074c4664c59f8c095bf6c49
+/* istanbul ignore next */
+function cov_v1ndtg7c4() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\cursos\\cursos.component.html";
+  var hash = "ea3206911f2a8264c0a793092f7f040c6e9e86f8";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\cursos\\cursos.component.html",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 1359
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "ea3206911f2a8264c0a793092f7f040c6e9e86f8"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_v1ndtg7c4 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_v1ndtg7c4();
+cov_v1ndtg7c4().s[0]++;
+module.exports = "<main>\r\n  <div class=\"container\">\r\n    <h1>Nuestros Cursos</h1>\r\n    <div class=\"dropdown\">\r\n      <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">\r\n        Filtrar por dificultad\r\n      </button>\r\n      <ul class=\"dropdown-menu\">\r\n        <li><a class=\"dropdown-item\" (click)=\"filterByCategory('principiante')\">Nivel Principiante</a></li>\r\n        <li><a class=\"dropdown-item\" (click)=\"filterByCategory('intermedio')\">Nivel Intermedio</a></li>\r\n        <li><a class=\"dropdown-item\" (click)=\"filterByCategory('avanzado')\">Nivel Avanzado</a></li>\r\n        <li><a class=\"dropdown-item\" (click)=\"restart()\">Todos</a></li>\r\n      </ul>\r\n    </div>\r\n\r\n\r\n    <div class=\"contenedor\">\r\n      <div class=\"logo1\" *ngFor=\"let course of courses\">\r\n        <ng-container *ngIf=\"selected_category === 'all' || course.level === selected_category\">\r\n          <a [routerLink]=\"['/cursos', course.id]\">\r\n            <img [src]=\"course.icon\" alt=\"{{ course.name }} icono\">\r\n          </a>\r\n          <h2>{{ course.name }}</h2>\r\n          <p>{{ course.desc.length > 150 ? course.desc.slice(0, 150) + '...' : course.desc }}</p>\r\n        </ng-container>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</main>";

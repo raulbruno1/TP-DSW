@@ -1,0 +1,23 @@
+
+
+.dialogo h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.dialogo .btn-cancelar, .btn-confirmar{
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.btn-confirmar{
+    background-color: rgb(184, 208, 230);
+}

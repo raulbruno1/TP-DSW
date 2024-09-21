@@ -1,0 +1,29 @@
+<main>
+  <div class="container">
+    <h1>Nuestros Cursos</h1>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Filtrar por dificultad
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" (click)="filterByCategory('principiante')">Nivel Principiante</a></li>
+        <li><a class="dropdown-item" (click)="filterByCategory('intermedio')">Nivel Intermedio</a></li>
+        <li><a class="dropdown-item" (click)="filterByCategory('avanzado')">Nivel Avanzado</a></li>
+        <li><a class="dropdown-item" (click)="restart()">Todos</a></li>
+      </ul>
+    </div>
+
+
+    <div class="contenedor">
+      <div class="logo1" *ngFor="let course of courses">
+        <ng-container *ngIf="selected_category === 'all' || course.level === selected_category">
+          <a [routerLink]="['/cursos', course.id]">
+            <img [src]="course.icon" alt="{{ course.name }} icono">
+          </a>
+          <h2>{{ course.name }}</h2>
+          <p>{{ course.desc.length > 150 ? course.desc.slice(0, 150) + '...' : course.desc }}</p>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</main>

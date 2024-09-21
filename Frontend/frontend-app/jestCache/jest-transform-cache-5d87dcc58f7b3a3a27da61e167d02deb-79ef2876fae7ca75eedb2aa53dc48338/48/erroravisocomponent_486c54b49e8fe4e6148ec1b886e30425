@@ -1,0 +1,361 @@
+4684c3a668fad3764b2a93b5e80f6686
+"use strict";
+
+/* istanbul ignore next */
+function cov_2qt09qk61f() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\error-aviso\\error-aviso.component.ts";
+  var hash = "0ec0bb48852198aff3c75992f7bbdcb770bc0cce";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\error-aviso\\error-aviso.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 37
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 17
+        },
+        end: {
+          line: 6,
+          column: 52
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 26
+        },
+        end: {
+          line: 24,
+          column: 1
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 25
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 35
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 49
+        }
+      },
+      "9": {
+        start: {
+          line: 14,
+          column: 8
+        },
+        end: {
+          line: 14,
+          column: 31
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 28
+        }
+      },
+      "11": {
+        start: {
+          line: 17,
+          column: 13
+        },
+        end: {
+          line: 20,
+          column: 6
+        }
+      },
+      "12": {
+        start: {
+          line: 17,
+          column: 41
+        },
+        end: {
+          line: 20,
+          column: 5
+        }
+      },
+      "13": {
+        start: {
+          line: 21,
+          column: 13
+        },
+        end: {
+          line: 23,
+          column: 6
+        }
+      },
+      "14": {
+        start: {
+          line: 25,
+          column: 0
+        },
+        end: {
+          line: 31,
+          column: 24
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 8,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 33
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 13,
+            column: 4
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 18
+          },
+          end: {
+            line: 16,
+            column: 5
+          }
+        },
+        line: 13
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 17,
+            column: 35
+          },
+          end: {
+            line: 17,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 41
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        },
+        line: 17
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\error-aviso\\error-aviso.component.ts",
+      mappings: ";;;;AAAA,wCAAwE;AACxE,qDAAyE;AAQlE,IAAM,mBAAmB,iCAAzB,MAAM,mBAAmB;IAG9B,YACkC,IAAS,EACjC,SAA4C;QADpB,SAAI,GAAJ,IAAI,CAAK;QACjC,cAAS,GAAT,SAAS,CAAmC;QAJ5C,YAAO,GAAuB,IAAI,mBAAY,EAAQ;IAK7D,CAAC;IAEJ,WAAW;QAET,IAAI,CAAC,SAAS,CAAC,KAAK,EAAE,CAAC;QACvB,IAAI,CAAC,OAAO,CAAC,IAAI,EAAE,CAAC;IAEtB,CAAC;;gDATE,aAAM,SAAC,wBAAe;;;;0BAHxB,aAAM;;;8BADI,mBAAmB;IAL/B,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,iBAAiB;QAC3B,iDAA2C;KAE5C,CAAC;qDAMqB,qBAAY;GALtB,mBAAmB,CAc/B",
+      names: [],
+      sources: ["C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\error-aviso\\error-aviso.component.ts"],
+      sourcesContent: ["import { Component, Inject, EventEmitter, Output } from '@angular/core';\r\nimport { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';\r\n\r\n\r\n@Component({\r\n  selector: 'app-error-aviso',\r\n  templateUrl: './error-aviso.component.html',\r\n  styleUrls: ['./error-aviso.component.css']\r\n})\r\nexport class ErrorAvisoComponent {\r\n  @Output() onClose: EventEmitter<void> = new EventEmitter<void>();\r\n\r\n  constructor(\r\n    @Inject(MAT_DIALOG_DATA) public data: any,\r\n    private dialogRef: MatDialogRef<ErrorAvisoComponent>\r\n  ) {}\r\n\r\n  closeDialog() {\r\n    \r\n    this.dialogRef.close();\r\n    this.onClose.emit();\r\n\r\n  }\r\n}"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "0ec0bb48852198aff3c75992f7bbdcb770bc0cce"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2qt09qk61f = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2qt09qk61f();
+cov_2qt09qk61f().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2qt09qk61f().s[1]++;
+exports.ErrorAvisoComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_2qt09qk61f().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_2qt09qk61f().s[3]++, require("@angular/core"));
+const dialog_1 =
+/* istanbul ignore next */
+(cov_2qt09qk61f().s[4]++, require("@angular/material/dialog"));
+let ErrorAvisoComponent =
+/* istanbul ignore next */
+(cov_2qt09qk61f().s[5]++, exports.ErrorAvisoComponent = class ErrorAvisoComponent {
+  constructor(data, dialogRef) {
+    /* istanbul ignore next */
+    cov_2qt09qk61f().f[0]++;
+    cov_2qt09qk61f().s[6]++;
+    this.data = data;
+    /* istanbul ignore next */
+    cov_2qt09qk61f().s[7]++;
+    this.dialogRef = dialogRef;
+    /* istanbul ignore next */
+    cov_2qt09qk61f().s[8]++;
+    this.onClose = new core_1.EventEmitter();
+  }
+  closeDialog() {
+    /* istanbul ignore next */
+    cov_2qt09qk61f().f[1]++;
+    cov_2qt09qk61f().s[9]++;
+    this.dialogRef.close();
+    /* istanbul ignore next */
+    cov_2qt09qk61f().s[10]++;
+    this.onClose.emit();
+  }
+  static {
+    /* istanbul ignore next */
+    cov_2qt09qk61f().s[11]++;
+    this.ctorParameters = () => {
+      /* istanbul ignore next */
+      cov_2qt09qk61f().f[2]++;
+      cov_2qt09qk61f().s[12]++;
+      return [{
+        type: undefined,
+        decorators: [{
+          type: core_1.Inject,
+          args: [dialog_1.MAT_DIALOG_DATA]
+        }]
+      }, {
+        type: dialog_1.MatDialogRef
+      }];
+    };
+  }
+  static {
+    /* istanbul ignore next */
+    cov_2qt09qk61f().s[13]++;
+    this.propDecorators = {
+      onClose: [{
+        type: core_1.Output
+      }]
+    };
+  }
+});
+/* istanbul ignore next */
+cov_2qt09qk61f().s[14]++;
+exports.ErrorAvisoComponent = ErrorAvisoComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-error-aviso',
+  template: require("./error-aviso.component.html")
+}), tslib_1.__metadata("design:paramtypes", [Object, dialog_1.MatDialogRef])], ErrorAvisoComponent);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMnF0MDlxazYxZiIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJkaWFsb2dfMSIsIkVycm9yQXZpc29Db21wb25lbnQiLCJleHBvcnRzIiwiY29uc3RydWN0b3IiLCJkYXRhIiwiZGlhbG9nUmVmIiwiZiIsIm9uQ2xvc2UiLCJFdmVudEVtaXR0ZXIiLCJjbG9zZURpYWxvZyIsImNsb3NlIiwiZW1pdCIsIkluamVjdCIsImFyZ3MiLCJNQVRfRElBTE9HX0RBVEEiLCJPdXRwdXQiLCJ0c2xpYl8xIiwiX19kZWNvcmF0ZSIsIkNvbXBvbmVudCIsInNlbGVjdG9yIiwidGVtcGxhdGUiLCJNYXREaWFsb2dSZWYiXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXEp1bGnDoW5cXERlc2t0b3BcXGZyb250XFxmcm9udGVuZC1hcHBcXHNyY1xcYXBwXFxjb21wb25lbnRzXFxlcnJvci1hdmlzb1xcZXJyb3ItYXZpc28uY29tcG9uZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgSW5qZWN0LCBFdmVudEVtaXR0ZXIsIE91dHB1dCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5pbXBvcnQgeyBNQVRfRElBTE9HX0RBVEEsIE1hdERpYWxvZ1JlZiB9IGZyb20gJ0Bhbmd1bGFyL21hdGVyaWFsL2RpYWxvZyc7XHJcblxyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICdhcHAtZXJyb3ItYXZpc28nLFxyXG4gIHRlbXBsYXRlVXJsOiAnLi9lcnJvci1hdmlzby5jb21wb25lbnQuaHRtbCcsXHJcbiAgc3R5bGVVcmxzOiBbJy4vZXJyb3ItYXZpc28uY29tcG9uZW50LmNzcyddXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBFcnJvckF2aXNvQ29tcG9uZW50IHtcclxuICBAT3V0cHV0KCkgb25DbG9zZTogRXZlbnRFbWl0dGVyPHZvaWQ+ID0gbmV3IEV2ZW50RW1pdHRlcjx2b2lkPigpO1xyXG5cclxuICBjb25zdHJ1Y3RvcihcclxuICAgIEBJbmplY3QoTUFUX0RJQUxPR19EQVRBKSBwdWJsaWMgZGF0YTogYW55LFxyXG4gICAgcHJpdmF0ZSBkaWFsb2dSZWY6IE1hdERpYWxvZ1JlZjxFcnJvckF2aXNvQ29tcG9uZW50PlxyXG4gICkge31cclxuXHJcbiAgY2xvc2VEaWFsb2coKSB7XHJcbiAgICBcclxuICAgIHRoaXMuZGlhbG9nUmVmLmNsb3NlKCk7XHJcbiAgICB0aGlzLm9uQ2xvc2UuZW1pdCgpO1xyXG5cclxuICB9XHJcbn0iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFzQkc7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7Ozs7Ozs7QUF0QkgsTUFBQUMsTUFBQTtBQUFBO0FBQUEsQ0FBQUgsY0FBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFDQSxNQUFBQyxRQUFBO0FBQUE7QUFBQSxDQUFBTCxjQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQVFPLElBQU1FLG1CQUFtQjtBQUFBO0FBQUEsQ0FBQU4sY0FBQSxHQUFBRSxDQUFBLE9BQUFLLE9BQUEsQ0FBQUQsbUJBQUEsR0FBekIsTUFBTUEsbUJBQW1CO0VBRzlCRSxZQUNrQ0MsSUFBUyxFQUNqQ0MsU0FBNEM7SUFBQTtJQUFBVixjQUFBLEdBQUFXLENBQUE7SUFBQVgsY0FBQSxHQUFBRSxDQUFBO0lBRHBCLEtBQUFPLElBQUksR0FBSkEsSUFBSTtJQUFLO0lBQUFULGNBQUEsR0FBQUUsQ0FBQTtJQUNqQyxLQUFBUSxTQUFTLEdBQVRBLFNBQVM7SUFBbUM7SUFBQVYsY0FBQSxHQUFBRSxDQUFBO0lBSjVDLEtBQUFVLE9BQU8sR0FBdUIsSUFBSVQsTUFBQSxDQUFBVSxZQUFZLEVBQVE7RUFLN0Q7RUFFSEMsV0FBV0EsQ0FBQTtJQUFBO0lBQUFkLGNBQUEsR0FBQVcsQ0FBQTtJQUFBWCxjQUFBLEdBQUFFLENBQUE7SUFFVCxJQUFJLENBQUNRLFNBQVMsQ0FBQ0ssS0FBSyxFQUFFO0lBQUM7SUFBQWYsY0FBQSxHQUFBRSxDQUFBO0lBQ3ZCLElBQUksQ0FBQ1UsT0FBTyxDQUFDSSxJQUFJLEVBQUU7RUFFckI7Ozs7Ozs7Ozs7O2dCQVRHYixNQUFBLENBQUFjLE1BQU07VUFBQUMsSUFBQSxHQUFDYixRQUFBLENBQUFjLGVBQWU7UUFBQTtNQUFBLEc7Ozs7Ozs7Ozs7Y0FIeEJoQixNQUFBLENBQUFpQjtNQUFNOzs7Ozs7OEJBRElkLG1CQUFtQixHQUFBZSxPQUFBLENBQUFDLFVBQUEsRUFML0IsSUFBQW5CLE1BQUEsQ0FBQW9CLFNBQVMsRUFBQztFQUNUQyxRQUFRLEVBQUUsaUJBQWlCO0VBQzNCQyxRQUFBLEVBQUFyQixPQUFBO0NBRUQsQ0FBQyxFLGlEQU1xQkMsUUFBQSxDQUFBcUIsWUFBWSxHLEVBTHRCcEIsbUJBQW1CLENBYy9CIn0=

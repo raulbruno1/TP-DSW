@@ -1,0 +1,433 @@
+dcc66c2795a6367fd6be3ad170c8541f
+"use strict";
+
+/* istanbul ignore next */
+function cov_29sqgdxpj0() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.ts";
+  var hash = "a33144b445b5feece5d838e31f51d27a1e3ec282";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 41
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 17
+        },
+        end: {
+          line: 6,
+          column: 52
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 25
+        },
+        end: {
+          line: 7,
+          column: 67
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 30
+        },
+        end: {
+          line: 30,
+          column: 1
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 25
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 35
+        }
+      },
+      "9": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 12,
+          column: 43
+        }
+      },
+      "10": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 49
+        }
+      },
+      "11": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 31
+        }
+      },
+      "12": {
+        start: {
+          line: 17,
+          column: 8
+        },
+        end: {
+          line: 17,
+          column: 28
+        }
+      },
+      "13": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 37
+        }
+      },
+      "14": {
+        start: {
+          line: 22,
+          column: 13
+        },
+        end: {
+          line: 26,
+          column: 6
+        }
+      },
+      "15": {
+        start: {
+          line: 22,
+          column: 41
+        },
+        end: {
+          line: 26,
+          column: 5
+        }
+      },
+      "16": {
+        start: {
+          line: 27,
+          column: 13
+        },
+        end: {
+          line: 29,
+          column: 6
+        }
+      },
+      "17": {
+        start: {
+          line: 31,
+          column: 0
+        },
+        end: {
+          line: 37,
+          column: 28
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 9,
+            column: 4
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 48
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 9
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 15,
+            column: 4
+          },
+          end: {
+            line: 15,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 18
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 19,
+            column: 4
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 27
+          },
+          end: {
+            line: 21,
+            column: 5
+          }
+        },
+        line: 19
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 22,
+            column: 35
+          },
+          end: {
+            line: 22,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 41
+          },
+          end: {
+            line: 26,
+            column: 5
+          }
+        },
+        line: 22
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.ts",
+      mappings: ";;;;AAAA,wCAAwE;AACxE,qDAAyE;AACzE,oEAAgE;AAQzD,IAAM,uBAAuB,qCAA7B,MAAM,uBAAuB;IAGlC,YACkC,IAAS,EACjC,SAAgD,EAAS,aAA4B;QAD7D,SAAI,GAAJ,IAAI,CAAK;QACjC,cAAS,GAAT,SAAS,CAAuC;QAAS,kBAAa,GAAb,aAAa,CAAe;QAJrF,YAAO,GAAuB,IAAI,mBAAY,EAAQ;IAM7D,CAAC;IAEJ,WAAW;QACT,IAAI,CAAC,SAAS,CAAC,KAAK,EAAE,CAAC;QACvB,IAAI,CAAC,OAAO,CAAC,IAAI,EAAE,CAAC;IACtB,CAAC;IAED,cAAc,CAAC,MAAc;QAC3B,IAAI,CAAC,SAAS,CAAC,KAAK,CAAC,MAAM,CAAC,CAAC;IAC/B,CAAC;;gDAZE,aAAM,SAAC,wBAAe;;;;;0BAHxB,aAAM;;;kCADI,uBAAuB;IANnC,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,qBAAqB;QAC/B,qDAA+C;KAGhD,CAAC;qDAMqB,qBAAY,EAAiD,8BAAa;GALpF,uBAAuB,CAkBjC",
+      names: [],
+      sources: ["C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\eliminar-dialog\\eliminar-dialog.component.ts"],
+      sourcesContent: ["import { Component, Inject, EventEmitter, Output } from '@angular/core';\r\nimport { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';\r\nimport { DialogService } from 'src/app/services/dialog.service';\r\n\r\n@Component({\r\n  selector: 'app-eliminar-dialog',\r\n  templateUrl: './eliminar-dialog.component.html',\r\n  styleUrls: ['./eliminar-dialog.component.css'],\r\n\r\n})\r\nexport class EliminarDialogComponent {\r\n  @Output() onClose: EventEmitter<void> = new EventEmitter<void>();\r\n  alumnoData: any;\r\n  constructor(\r\n    @Inject(MAT_DIALOG_DATA) public data: any,\r\n    private dialogRef: MatDialogRef<EliminarDialogComponent>,private dialogService: DialogService,\r\n\r\n  ) {}\r\n\r\n  closeDialog() {\r\n    this.dialogRef.close();\r\n    this.onClose.emit();\r\n  }\r\n\r\n  onDeleteAlumno(result: string) {\r\n    this.dialogRef.close(result);\r\n  }\r\n  \r\n  }\r\n  \r\n\r\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "a33144b445b5feece5d838e31f51d27a1e3ec282"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_29sqgdxpj0 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_29sqgdxpj0();
+cov_29sqgdxpj0().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_29sqgdxpj0().s[1]++;
+exports.EliminarDialogComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_29sqgdxpj0().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_29sqgdxpj0().s[3]++, require("@angular/core"));
+const dialog_1 =
+/* istanbul ignore next */
+(cov_29sqgdxpj0().s[4]++, require("@angular/material/dialog"));
+const dialog_service_1 =
+/* istanbul ignore next */
+(cov_29sqgdxpj0().s[5]++, require("src/app/services/dialog.service"));
+let EliminarDialogComponent =
+/* istanbul ignore next */
+(cov_29sqgdxpj0().s[6]++, exports.EliminarDialogComponent = class EliminarDialogComponent {
+  constructor(data, dialogRef, dialogService) {
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().f[0]++;
+    cov_29sqgdxpj0().s[7]++;
+    this.data = data;
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[8]++;
+    this.dialogRef = dialogRef;
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[9]++;
+    this.dialogService = dialogService;
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[10]++;
+    this.onClose = new core_1.EventEmitter();
+  }
+  closeDialog() {
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().f[1]++;
+    cov_29sqgdxpj0().s[11]++;
+    this.dialogRef.close();
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[12]++;
+    this.onClose.emit();
+  }
+  onDeleteAlumno(result) {
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().f[2]++;
+    cov_29sqgdxpj0().s[13]++;
+    this.dialogRef.close(result);
+  }
+  static {
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[14]++;
+    this.ctorParameters = () => {
+      /* istanbul ignore next */
+      cov_29sqgdxpj0().f[3]++;
+      cov_29sqgdxpj0().s[15]++;
+      return [{
+        type: undefined,
+        decorators: [{
+          type: core_1.Inject,
+          args: [dialog_1.MAT_DIALOG_DATA]
+        }]
+      }, {
+        type: dialog_1.MatDialogRef
+      }, {
+        type: dialog_service_1.DialogService
+      }];
+    };
+  }
+  static {
+    /* istanbul ignore next */
+    cov_29sqgdxpj0().s[16]++;
+    this.propDecorators = {
+      onClose: [{
+        type: core_1.Output
+      }]
+    };
+  }
+});
+/* istanbul ignore next */
+cov_29sqgdxpj0().s[17]++;
+exports.EliminarDialogComponent = EliminarDialogComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-eliminar-dialog',
+  template: require("./eliminar-dialog.component.html")
+}), tslib_1.__metadata("design:paramtypes", [Object, dialog_1.MatDialogRef, dialog_service_1.DialogService])], EliminarDialogComponent);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMjlzcWdkeHBqMCIsImFjdHVhbENvdmVyYWdlIiwicyIsImNvcmVfMSIsInJlcXVpcmUiLCJkaWFsb2dfMSIsImRpYWxvZ19zZXJ2aWNlXzEiLCJFbGltaW5hckRpYWxvZ0NvbXBvbmVudCIsImV4cG9ydHMiLCJjb25zdHJ1Y3RvciIsImRhdGEiLCJkaWFsb2dSZWYiLCJkaWFsb2dTZXJ2aWNlIiwiZiIsIm9uQ2xvc2UiLCJFdmVudEVtaXR0ZXIiLCJjbG9zZURpYWxvZyIsImNsb3NlIiwiZW1pdCIsIm9uRGVsZXRlQWx1bW5vIiwicmVzdWx0IiwiSW5qZWN0IiwiYXJncyIsIk1BVF9ESUFMT0dfREFUQSIsIk91dHB1dCIsInRzbGliXzEiLCJfX2RlY29yYXRlIiwiQ29tcG9uZW50Iiwic2VsZWN0b3IiLCJ0ZW1wbGF0ZSIsIk1hdERpYWxvZ1JlZiIsIkRpYWxvZ1NlcnZpY2UiXSwic291cmNlcyI6WyJDOlxcVXNlcnNcXEp1bGnDoW5cXERlc2t0b3BcXGZyb250XFxmcm9udGVuZC1hcHBcXHNyY1xcYXBwXFxjb21wb25lbnRzXFxlbGltaW5hci1kaWFsb2dcXGVsaW1pbmFyLWRpYWxvZy5jb21wb25lbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50LCBJbmplY3QsIEV2ZW50RW1pdHRlciwgT3V0cHV0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcbmltcG9ydCB7IE1BVF9ESUFMT0dfREFUQSwgTWF0RGlhbG9nUmVmIH0gZnJvbSAnQGFuZ3VsYXIvbWF0ZXJpYWwvZGlhbG9nJztcclxuaW1wb3J0IHsgRGlhbG9nU2VydmljZSB9IGZyb20gJ3NyYy9hcHAvc2VydmljZXMvZGlhbG9nLnNlcnZpY2UnO1xyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICdhcHAtZWxpbWluYXItZGlhbG9nJyxcclxuICB0ZW1wbGF0ZVVybDogJy4vZWxpbWluYXItZGlhbG9nLmNvbXBvbmVudC5odG1sJyxcclxuICBzdHlsZVVybHM6IFsnLi9lbGltaW5hci1kaWFsb2cuY29tcG9uZW50LmNzcyddLFxyXG5cclxufSlcclxuZXhwb3J0IGNsYXNzIEVsaW1pbmFyRGlhbG9nQ29tcG9uZW50IHtcclxuICBAT3V0cHV0KCkgb25DbG9zZTogRXZlbnRFbWl0dGVyPHZvaWQ+ID0gbmV3IEV2ZW50RW1pdHRlcjx2b2lkPigpO1xyXG4gIGFsdW1ub0RhdGE6IGFueTtcclxuICBjb25zdHJ1Y3RvcihcclxuICAgIEBJbmplY3QoTUFUX0RJQUxPR19EQVRBKSBwdWJsaWMgZGF0YTogYW55LFxyXG4gICAgcHJpdmF0ZSBkaWFsb2dSZWY6IE1hdERpYWxvZ1JlZjxFbGltaW5hckRpYWxvZ0NvbXBvbmVudD4scHJpdmF0ZSBkaWFsb2dTZXJ2aWNlOiBEaWFsb2dTZXJ2aWNlLFxyXG5cclxuICApIHt9XHJcblxyXG4gIGNsb3NlRGlhbG9nKCkge1xyXG4gICAgdGhpcy5kaWFsb2dSZWYuY2xvc2UoKTtcclxuICAgIHRoaXMub25DbG9zZS5lbWl0KCk7XHJcbiAgfVxyXG5cclxuICBvbkRlbGV0ZUFsdW1ubyhyZXN1bHQ6IHN0cmluZykge1xyXG4gICAgdGhpcy5kaWFsb2dSZWYuY2xvc2UocmVzdWx0KTtcclxuICB9XHJcbiAgXHJcbiAgfVxyXG4gIFxyXG5cclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQW9CUTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBQUFBLGNBQUEsR0FBQUUsQ0FBQTs7Ozs7Ozs7OztBQXBCUixNQUFBQyxNQUFBO0FBQUE7QUFBQSxDQUFBSCxjQUFBLEdBQUFFLENBQUEsT0FBQUUsT0FBQTtBQUNBLE1BQUFDLFFBQUE7QUFBQTtBQUFBLENBQUFMLGNBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBQ0EsTUFBQUUsZ0JBQUE7QUFBQTtBQUFBLENBQUFOLGNBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBUU8sSUFBTUcsdUJBQXVCO0FBQUE7QUFBQSxDQUFBUCxjQUFBLEdBQUFFLENBQUEsT0FBQU0sT0FBQSxDQUFBRCx1QkFBQSxHQUE3QixNQUFNQSx1QkFBdUI7RUFHbENFLFlBQ2tDQyxJQUFTLEVBQ2pDQyxTQUFnRCxFQUFTQyxhQUE0QjtJQUFBO0lBQUFaLGNBQUEsR0FBQWEsQ0FBQTtJQUFBYixjQUFBLEdBQUFFLENBQUE7SUFEN0QsS0FBQVEsSUFBSSxHQUFKQSxJQUFJO0lBQUs7SUFBQVYsY0FBQSxHQUFBRSxDQUFBO0lBQ2pDLEtBQUFTLFNBQVMsR0FBVEEsU0FBUztJQUF1QztJQUFBWCxjQUFBLEdBQUFFLENBQUE7SUFBUyxLQUFBVSxhQUFhLEdBQWJBLGFBQWE7SUFBZTtJQUFBWixjQUFBLEdBQUFFLENBQUE7SUFKckYsS0FBQVksT0FBTyxHQUF1QixJQUFJWCxNQUFBLENBQUFZLFlBQVksRUFBUTtFQU03RDtFQUVIQyxXQUFXQSxDQUFBO0lBQUE7SUFBQWhCLGNBQUEsR0FBQWEsQ0FBQTtJQUFBYixjQUFBLEdBQUFFLENBQUE7SUFDVCxJQUFJLENBQUNTLFNBQVMsQ0FBQ00sS0FBSyxFQUFFO0lBQUM7SUFBQWpCLGNBQUEsR0FBQUUsQ0FBQTtJQUN2QixJQUFJLENBQUNZLE9BQU8sQ0FBQ0ksSUFBSSxFQUFFO0VBQ3JCO0VBRUFDLGNBQWNBLENBQUNDLE1BQWM7SUFBQTtJQUFBcEIsY0FBQSxHQUFBYSxDQUFBO0lBQUFiLGNBQUEsR0FBQUUsQ0FBQTtJQUMzQixJQUFJLENBQUNTLFNBQVMsQ0FBQ00sS0FBSyxDQUFDRyxNQUFNLENBQUM7RUFDOUI7Ozs7Ozs7Ozs7O2dCQVpHakIsTUFBQSxDQUFBa0IsTUFBTTtVQUFBQyxJQUFBLEdBQUNqQixRQUFBLENBQUFrQixlQUFlO1FBQUE7TUFBQSxHOzs7Ozs7Ozs7Ozs7Y0FIeEJwQixNQUFBLENBQUFxQjtNQUFNOzs7Ozs7a0NBRElqQix1QkFBdUIsR0FBQWtCLE9BQUEsQ0FBQUMsVUFBQSxFQU5uQyxJQUFBdkIsTUFBQSxDQUFBd0IsU0FBUyxFQUFDO0VBQ1RDLFFBQVEsRUFBRSxxQkFBcUI7RUFDL0JDLFFBQUEsRUFBQXpCLE9BQUE7Q0FHRCxDQUFDLEUsaURBTXFCQyxRQUFBLENBQUF5QixZQUFZLEVBQWlEeEIsZ0JBQUEsQ0FBQXlCLGFBQWEsRyxFQUxwRnhCLHVCQUF1QixDQWtCakMifQ==

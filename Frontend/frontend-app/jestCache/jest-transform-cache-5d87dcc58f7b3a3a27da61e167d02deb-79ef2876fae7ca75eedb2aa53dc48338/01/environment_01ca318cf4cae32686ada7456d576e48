@@ -1,0 +1,91 @@
+013f71c7d472dda9ad20a9471db0a4b2
+"use strict";
+
+/* istanbul ignore next */
+function cov_1i61zqsnb4() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\environments\\environment.ts";
+  var hash = "aa3573f97aef923e66d02e27a8cff86b68e94869";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\environments\\environment.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 29
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\environments\\environment.ts",
+      mappings: ";;;AAAa,QAAA,WAAW,GAAG;IACvB,UAAU,EAAE,IAAI;IAChB,MAAM,EAAE,2CAA2C;CACtD,CAAC",
+      names: [],
+      sources: ["C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\environments\\environment.ts"],
+      sourcesContent: ["export const environment = {\r\n    production: true,\r\n    apiUrl: 'https://backend-app-8xod.onrender.com/api',\r\n};\r\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "aa3573f97aef923e66d02e27a8cff86b68e94869"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1i61zqsnb4 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1i61zqsnb4();
+cov_1i61zqsnb4().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1i61zqsnb4().s[1]++;
+exports.environment = void 0;
+/* istanbul ignore next */
+cov_1i61zqsnb4().s[2]++;
+exports.environment = {
+  production: true,
+  apiUrl: 'https://backend-app-8xod.onrender.com/api'
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwiZW52aXJvbm1lbnQiLCJwcm9kdWN0aW9uIiwiYXBpVXJsIl0sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxKdWxpw6FuXFxEZXNrdG9wXFxmcm9udFxcZnJvbnRlbmQtYXBwXFxzcmNcXGVudmlyb25tZW50c1xcZW52aXJvbm1lbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGVudmlyb25tZW50ID0ge1xyXG4gICAgcHJvZHVjdGlvbjogdHJ1ZSxcclxuICAgIGFwaVVybDogJ2h0dHBzOi8vYmFja2VuZC1hcHAtOHhvZC5vbnJlbmRlci5jb20vYXBpJyxcclxufTtcclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQWFBLE9BQUEsQ0FBQUMsV0FBVyxHQUFHO0VBQ3ZCQyxVQUFVLEVBQUUsSUFBSTtFQUNoQkMsTUFBTSxFQUFFO0NBQ1gifQ==

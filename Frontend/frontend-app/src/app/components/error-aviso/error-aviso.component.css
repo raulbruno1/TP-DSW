@@ -1,0 +1,21 @@
+
+
+
+.dialogo h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+
+.dialogo .boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.dialogo .botones{
+    display: flex;
+    justify-content: center;
+}

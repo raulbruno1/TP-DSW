@@ -1,0 +1,14 @@
+<div class="container-fluid" *ngIf="course">
+
+  <div class="logo1">
+    <img src="./assets/foto computadora curso.jpg" >
+    <h2>{{course.name}}</h2>
+    <p class="horas"> Horas del curso: {{course.totalhours}}</p>
+    <p class="email"> Contactenos en: {{course.email}}</p>
+    <button type="submit" class="form-button" id="submit" (click)="inscribe()">Inscribirse gratis</button>
+  </div>
+
+  <div class="descripcion">
+    <p class="desc">{{course.desc}}</p>
+  </div>
+</div>

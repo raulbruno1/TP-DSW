@@ -1,0 +1,48 @@
+
+
+  
+  main {
+      padding: 0;
+      margin: 2%;
+    }
+
+    main h1 {
+    font-family: 'Open sans';
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0; /*espacio entre titulo principal y contenedores*/
+    text-align: center;
+    margin-top: 2%; /*espacio entre header y titulo principal*/
+  }
+
+  
+  .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+
+  
+    .logo1{
+      width: 30%; /*cambio tamaño del cuadrado*/
+    text-align: center; /*justifico imagen y titulo del curso*/
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 15px; /*redondeo esquinas*/
+    margin-bottom: 3%; /*espacio entre filas*/
+    }
+
+    .contenedor .logo1 p{
+      text-align:center;  /*justificar las descripciones*/
+    }
+  
+    .contenedor .logo1 img{
+      width:25%;
+    }
+    .contenedor .logo1 img:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: .5s;
+      transition: .5s;
+    }

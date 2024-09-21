@@ -1,0 +1,101 @@
+main {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cursos {
+    margin: 3%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 15px;
+  }
+  
+  .cursos h2 {
+    text-align: center;
+  }
+  
+
+  .cursos-existentes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .cursos-existentes h4 {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .btnbasura,
+  .btneditar{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .btnbasura {
+    color: red;
+  }
+  
+  .btnbasura:hover {
+    color: darkred;
+  }
+
+  .btneditar{
+    color:black
+  }
+  
+  .fila h4 {
+    font-size: 16px;
+    margin-right: 11%;
+    margin-top: 1%;
+    display: contents;
+  }
+  
+  .row-cols-4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn-nuevo{
+    padding: 0.5% 1%;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    color: white;
+  }
+
+  .btn-nuevo {
+    background-color: #4bff3b7a;
+    margin-right: 2%;
+  }
+
+  .lower-buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .fila h4 {
+      margin-right: 8%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .fila h4 {
+      margin-right: 11%;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    .fila h4 {
+      margin-right: 9%;
+    }
+  
+    .row-cols-4 .fila {
+      margin: left 1%;
+      ;
+    }
+  }

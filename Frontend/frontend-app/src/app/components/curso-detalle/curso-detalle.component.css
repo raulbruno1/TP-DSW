@@ -1,0 +1,59 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 95%);
+  }
+    
+  .logo1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    align-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  .logo1 img {
+    
+    width: 100%;
+  }
+
+  .logo1 h2{
+    margin-top: 5%;
+    font-size: 30px;
+  }
+  
+  .logo1 p{
+    font-size: 20px;
+  }  
+
+  .logo1 .form-button{
+    width: 50%;
+    background-color: lavender;
+    margin-left: 20%;
+  }
+
+  .descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 120%;
+    margin: 5%;
+    width: 60%;
+   }
+
+  @media only screen and (min-width: 1024px) {
+
+    .descripcion{
+      font-size: 22px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+  .descripcion{
+    font-size: 28px;
+  }
+  }

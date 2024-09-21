@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Users\\Juli\u00E1n\\Desktop\\front\\frontend-app\\node_modules\\@angular\\cdk\\fesm2022\\cdk.mjs"],
+  "sourcesContent": ["import { Version } from '@angular/core';\n\n/** Current version of the Angular Component Development Kit. */\nconst VERSION = new Version('16.2.8');\n\nexport { VERSION };\n//# sourceMappingURL=cdk.mjs.map\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,kBAAwB;AAGxB,MAAM,UAAU,IAAI,oBAAQ,QAAQ;",
+  "names": []
+}

@@ -1,0 +1,362 @@
+a6341350894252ce98069420a70dc577
+"use strict";
+
+/* istanbul ignore next */
+function cov_on85uhkhf() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.ts";
+  var hash = "0fc4bb17eea5a4efdd954d8549c77d0640e1c294";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 30
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 4,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 15
+        },
+        end: {
+          line: 5,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 23
+        },
+        end: {
+          line: 6,
+          column: 57
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 19
+        },
+        end: {
+          line: 21,
+          column: 1
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 39
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 32
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 35
+        }
+      },
+      "9": {
+        start: {
+          line: 14,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 11
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 12
+        },
+        end: {
+          line: 15,
+          column: 39
+        }
+      },
+      "11": {
+        start: {
+          line: 18,
+          column: 13
+        },
+        end: {
+          line: 20,
+          column: 6
+        }
+      },
+      "12": {
+        start: {
+          line: 18,
+          column: 41
+        },
+        end: {
+          line: 20,
+          column: 5
+        }
+      },
+      "13": {
+        start: {
+          line: 22,
+          column: 0
+        },
+        end: {
+          line: 28,
+          column: 17
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 8,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 29
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 13,
+            column: 4
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 15
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 13
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 14,
+            column: 46
+          },
+          end: {
+            line: 14,
+            column: 47
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 60
+          },
+          end: {
+            line: 16,
+            column: 9
+          }
+        },
+        line: 14
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 18,
+            column: 35
+          },
+          end: {
+            line: 18,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 41
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        },
+        line: 18
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.ts",
+      mappings: ";;;;AAAA,wCAAkD;AAClD,0DAAsD;AAQ/C,IAAM,YAAY,0BAAlB,MAAM,YAAY;IAIvB,YAAoB,WAAwB;QAAxB,gBAAW,GAAX,WAAW,CAAa;QAH5C,eAAU,GAAY,KAAK,CAAC;QAC5B,UAAK,GAAG,aAAa,CAAC;IAGtB,CAAC;IAED,QAAQ;QACN,IAAI,CAAC,WAAW,CAAC,UAAU,CAAC,SAAS,CAAC,CAAC,QAAQ,EAAE,EAAE;YACjD,IAAI,CAAC,UAAU,GAAG,QAAQ,CAAC;QAC7B,CAAC,CAAC,CAAC;IACL,CAAC;;;;;uBAXU,YAAY;IALxB,IAAA,gBAAS,EAAC;QACT,QAAQ,EAAE,UAAU;QACpB,yCAAmC;KAEpC,CAAC;6CAKiC,0BAAW;GAJjC,YAAY,CAYxB",
+      names: [],
+      sources: ["C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\app.component.ts"],
+      sourcesContent: ["import { Component, OnInit } from '@angular/core';\r\nimport { AuthService } from './services/auth.service'; \r\n\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.css']\r\n})\r\nexport class AppComponent implements OnInit {\r\n  isLoggedIn: boolean = false;\r\n  title = 'trabajo-dds';\r\n\r\n  constructor(private authService: AuthService) {\r\n  }\r\n\r\n  ngOnInit() {\r\n    this.authService.isLoggedIn.subscribe((loggedIn) => {\r\n      this.isLoggedIn = loggedIn;\r\n    });\r\n  }\r\n}"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "0fc4bb17eea5a4efdd954d8549c77d0640e1c294"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_on85uhkhf = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_on85uhkhf();
+cov_on85uhkhf().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_on85uhkhf().s[1]++;
+exports.AppComponent = void 0;
+const tslib_1 =
+/* istanbul ignore next */
+(cov_on85uhkhf().s[2]++, require("tslib"));
+const core_1 =
+/* istanbul ignore next */
+(cov_on85uhkhf().s[3]++, require("@angular/core"));
+const auth_service_1 =
+/* istanbul ignore next */
+(cov_on85uhkhf().s[4]++, require("./services/auth.service"));
+let AppComponent =
+/* istanbul ignore next */
+(cov_on85uhkhf().s[5]++, exports.AppComponent = class AppComponent {
+  constructor(authService) {
+    /* istanbul ignore next */
+    cov_on85uhkhf().f[0]++;
+    cov_on85uhkhf().s[6]++;
+    this.authService = authService;
+    /* istanbul ignore next */
+    cov_on85uhkhf().s[7]++;
+    this.isLoggedIn = false;
+    /* istanbul ignore next */
+    cov_on85uhkhf().s[8]++;
+    this.title = 'trabajo-dds';
+  }
+  ngOnInit() {
+    /* istanbul ignore next */
+    cov_on85uhkhf().f[1]++;
+    cov_on85uhkhf().s[9]++;
+    this.authService.isLoggedIn.subscribe(loggedIn => {
+      /* istanbul ignore next */
+      cov_on85uhkhf().f[2]++;
+      cov_on85uhkhf().s[10]++;
+      this.isLoggedIn = loggedIn;
+    });
+  }
+  static {
+    /* istanbul ignore next */
+    cov_on85uhkhf().s[11]++;
+    this.ctorParameters = () => {
+      /* istanbul ignore next */
+      cov_on85uhkhf().f[3]++;
+      cov_on85uhkhf().s[12]++;
+      return [{
+        type: auth_service_1.AuthService
+      }];
+    };
+  }
+});
+/* istanbul ignore next */
+cov_on85uhkhf().s[13]++;
+exports.AppComponent = AppComponent = tslib_1.__decorate([(0, core_1.Component)({
+  selector: 'app-root',
+  template: require("./app.component.html")
+}), tslib_1.__metadata("design:paramtypes", [auth_service_1.AuthService])], AppComponent);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3Zfb244NXVoa2hmIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiY29yZV8xIiwicmVxdWlyZSIsImF1dGhfc2VydmljZV8xIiwiQXBwQ29tcG9uZW50IiwiZXhwb3J0cyIsImNvbnN0cnVjdG9yIiwiYXV0aFNlcnZpY2UiLCJmIiwiaXNMb2dnZWRJbiIsInRpdGxlIiwibmdPbkluaXQiLCJzdWJzY3JpYmUiLCJsb2dnZWRJbiIsInRzbGliXzEiLCJfX2RlY29yYXRlIiwiQ29tcG9uZW50Iiwic2VsZWN0b3IiLCJ0ZW1wbGF0ZSIsIkF1dGhTZXJ2aWNlIl0sInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxKdWxpw6FuXFxEZXNrdG9wXFxmcm9udFxcZnJvbnRlbmQtYXBwXFxzcmNcXGFwcFxcYXBwLmNvbXBvbmVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIE9uSW5pdCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5pbXBvcnQgeyBBdXRoU2VydmljZSB9IGZyb20gJy4vc2VydmljZXMvYXV0aC5zZXJ2aWNlJzsgXHJcblxyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICdhcHAtcm9vdCcsXHJcbiAgdGVtcGxhdGVVcmw6ICcuL2FwcC5jb21wb25lbnQuaHRtbCcsXHJcbiAgc3R5bGVVcmxzOiBbJy4vYXBwLmNvbXBvbmVudC5jc3MnXVxyXG59KVxyXG5leHBvcnQgY2xhc3MgQXBwQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcclxuICBpc0xvZ2dlZEluOiBib29sZWFuID0gZmFsc2U7XHJcbiAgdGl0bGUgPSAndHJhYmFqby1kZHMnO1xyXG5cclxuICBjb25zdHJ1Y3Rvcihwcml2YXRlIGF1dGhTZXJ2aWNlOiBBdXRoU2VydmljZSkge1xyXG4gIH1cclxuXHJcbiAgbmdPbkluaXQoKSB7XHJcbiAgICB0aGlzLmF1dGhTZXJ2aWNlLmlzTG9nZ2VkSW4uc3Vic2NyaWJlKChsb2dnZWRJbikgPT4ge1xyXG4gICAgICB0aGlzLmlzTG9nZ2VkSW4gPSBsb2dnZWRJbjtcclxuICAgIH0pO1xyXG4gIH1cclxufSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBbUJPO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBOzs7Ozs7Ozs7O0FBbkJQLE1BQUFDLE1BQUE7QUFBQTtBQUFBLENBQUFILGFBQUEsR0FBQUUsQ0FBQSxPQUFBRSxPQUFBO0FBQ0EsTUFBQUMsY0FBQTtBQUFBO0FBQUEsQ0FBQUwsYUFBQSxHQUFBRSxDQUFBLE9BQUFFLE9BQUE7QUFRTyxJQUFNRSxZQUFZO0FBQUE7QUFBQSxDQUFBTixhQUFBLEdBQUFFLENBQUEsT0FBQUssT0FBQSxDQUFBRCxZQUFBLEdBQWxCLE1BQU1BLFlBQVk7RUFJdkJFLFlBQW9CQyxXQUF3QjtJQUFBO0lBQUFULGFBQUEsR0FBQVUsQ0FBQTtJQUFBVixhQUFBLEdBQUFFLENBQUE7SUFBeEIsS0FBQU8sV0FBVyxHQUFYQSxXQUFXO0lBQWE7SUFBQVQsYUFBQSxHQUFBRSxDQUFBO0lBSDVDLEtBQUFTLFVBQVUsR0FBWSxLQUFLO0lBQUM7SUFBQVgsYUFBQSxHQUFBRSxDQUFBO0lBQzVCLEtBQUFVLEtBQUssR0FBRyxhQUFhO0VBR3JCO0VBRUFDLFFBQVFBLENBQUE7SUFBQTtJQUFBYixhQUFBLEdBQUFVLENBQUE7SUFBQVYsYUFBQSxHQUFBRSxDQUFBO0lBQ04sSUFBSSxDQUFDTyxXQUFXLENBQUNFLFVBQVUsQ0FBQ0csU0FBUyxDQUFFQyxRQUFRLElBQUk7TUFBQTtNQUFBZixhQUFBLEdBQUFVLENBQUE7TUFBQVYsYUFBQSxHQUFBRSxDQUFBO01BQ2pELElBQUksQ0FBQ1MsVUFBVSxHQUFHSSxRQUFRO0lBQzVCLENBQUMsQ0FBQztFQUNKOzs7Ozs7Ozs7Ozs7Ozs7O3VCQVhXVCxZQUFZLEdBQUFVLE9BQUEsQ0FBQUMsVUFBQSxFQUx4QixJQUFBZCxNQUFBLENBQUFlLFNBQVMsRUFBQztFQUNUQyxRQUFRLEVBQUUsVUFBVTtFQUNwQkMsUUFBQSxFQUFBaEIsT0FBQTtDQUVELENBQUMsRSx5Q0FLaUNDLGNBQUEsQ0FBQWdCLFdBQVcsRyxFQUpqQ2YsWUFBWSxDQVl4QiJ9

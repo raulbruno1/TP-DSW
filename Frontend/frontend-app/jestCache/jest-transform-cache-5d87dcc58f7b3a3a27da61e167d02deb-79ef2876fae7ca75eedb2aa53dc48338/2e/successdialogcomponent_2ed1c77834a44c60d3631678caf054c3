@@ -1,0 +1,47 @@
+90f1648d44271571c1dff4bf0bccf60f
+/* istanbul ignore next */
+function cov_1hcxkujcnw() {
+  var path = "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\success-dialog\\success-dialog.component.html";
+  var hash = "2e44c7b5f7f153ba41af0c5c81d17d964dad76a3";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\Juli\xE1n\\Desktop\\front\\frontend-app\\src\\app\\components\\success-dialog\\success-dialog.component.html",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 517
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "2e44c7b5f7f153ba41af0c5c81d17d964dad76a3"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1hcxkujcnw = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1hcxkujcnw();
+cov_1hcxkujcnw().s[0]++;
+module.exports = "<div class=\"dialogo\">\r\n<h1 mat-dialog-title>{{data.message}}</h1>\r\n<mat-dialog-actions align=\"center\">\r\n  <button class=\"boton\" mat-button (click)=\"closeDialog()\">Continuar</button>\r\n</mat-dialog-actions>\r\n</div>\r\n\r\n<!--<main>\r\n    <div class=\"dialogo\">\r\n        <h1>{{ data.message }}</h1>\r\n        <div class=\"botones\">\r\n        <button class=\"boton\" mat-button (click)=\"closeDialog()\">Continuar</button>\r\n    </div>\r\n      </div>\r\n    \r\n    </main>-->";

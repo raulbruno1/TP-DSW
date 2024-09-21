@@ -1,0 +1,33 @@
+<main>
+  <div class="formulario">
+    <form (ngSubmit)="userlog()">
+      <h1 class="titulo">¡Bienvenido!</h1>
+      <!-- Email -->
+      <div class="contform1">
+        <div class="form-elemento">
+          <h3>Email</h3>
+          <input type="email" class="form-control" name="email" id="email" required [(ngModel)]="user.email" #email="ngModel">
+          <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+            <div *ngIf="email.errors?.['required']">El email es requerido.</div>
+            <div *ngIf="email.errors?.['email']">El email no es válido.</div>
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="form-elemento">
+          <h3>Ingrese su contraseña</h3>
+          <input type="password" class="form-control" name="password" id="password" required [(ngModel)]="user.password" #password="ngModel">
+          <div *ngIf="password.invalid && (password.dirty || password.touched)" class="text-danger">
+            <div *ngIf="password.errors?.['required']">La contraseña es requerida.</div>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="form-button" id="submit">ENVIAR</button>
+      <div class="separator"></div>
+      <div class="ud-text-sm">
+        <span>¿No tienes una cuenta? <a class="ud-text-bold ud-link-underline" href="/registro">Regístrate</a></span>
+      </div>
+    </form>
+  </div>
+</main>
