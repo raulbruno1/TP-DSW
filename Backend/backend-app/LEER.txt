@@ -1,0 +1,1 @@
+INICIAR CON pnpm start:dev

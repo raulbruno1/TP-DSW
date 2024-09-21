@@ -1,0 +1,47 @@
+### obtener todos los alumnos
+GET  http://localhost:3000/api/alumnos
+
+### obtener un alumno
+
+GET http://localhost:3000/api/alumnos/8612
+
+### crear un nuevo alumno
+
+POST http://localhost:3000/api/alumnos
+Content-Type: application/json
+
+
+{
+  "name": "Juan",
+   "lastname": "Doe",
+   "age": 35,
+    "email":"jjjj@gmail.com",
+    "password":"555551"
+}
+
+### modificar un alumno (PUT - recurso completo e idempotente)
+
+PUT http://localhost:3000/api/alumnos/858
+Content-Type: application/json
+
+{
+  "name": "Alejandro",
+   "lastname": "Martorell",
+   "age": 29,
+    "email":"alemartore@gmail.com",
+    "legajo":"10"
+    }
+
+### modificar un alumno (PATCH - recurso parcial)
+
+PATCH http://localhost:3000/api/alumnos/5144
+Content-Type: application/json
+
+{
+  "name": "Puma",
+   "lastname": "Martorell",
+      "email":"alemartorell.gg.ez@gmail.com"
+}
+
+### eliminar un alumno
+DELETE  http://localhost:3000/api/alumnos/858

@@ -1,0 +1,47 @@
+### obtener todos los alumnos
+GET  http://localhost:3000/api/materia/
+
+### obtener un alumno
+
+GET http://localhost:3000/api/alumnos/652066fc98b3d51e34b0c41b
+
+### crear un nuevo alumno
+
+POST http://localhost:3000/api/materia/
+Content-Type: application/json
+
+
+{
+  "name": "Informatica Juridica",
+   "totalhours": "85",
+   "email": "IJ@gmail.com",
+    "nivel":"1",
+    "desc": "Explora el fascinante campo de la Informática Jurídica, donde la tecnología se fusiona con el ámbito legal. En esta materia, se abordan las intersecciones entre la informática y el sistema jurídico, examinando cómo las herramientas tecnológicas pueden potenciar la eficiencia en la gestión legal, análisis de datos forenses, y el acceso a la información legal. A lo largo del curso, se exploran conceptos clave como la ciberseguridad legal, la gestión de bases de datos jurídicas, y la aplicación de inteligencia artificial en el análisis de casos legales. Este viaje proporciona una comprensión profunda de cómo la informática juega un papel crucial en la evolución y modernización del ámbito legal."
+}
+
+### modificar un alumno (PUT - recurso completo e idempotente)
+
+PUT http://localhost:3000/api/alumnos/858
+Content-Type: application/json
+
+{
+  "name": "Alejandro",
+   "lastname": "Martorell",
+   "age": 29,
+    "email":"alemartore@gmail.com",
+    "legajo":"10"
+    }
+
+### modificar un alumno (PATCH - recurso parcial)
+
+PATCH http://localhost:3000/api/alumnos/6520674b98b3d51e34b0c41d
+Content-Type: application/json
+
+{
+  "name": "Puma",
+   "lastname": "Martorell",
+      "email":"alemartorell.gg.ez@gmail.com"
+}
+
+### eliminar un alumno
+DELETE  http://localhost:3000/api/alumnos/6520674b98b3d51e34b0c41d
